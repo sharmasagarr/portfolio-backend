@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 // Allowed domains
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://sharmasagarr.github.io/portfolio/",
+  "https://sharmasagarr.github.io",
 ];
 
 export default async function handler(req, res) {
