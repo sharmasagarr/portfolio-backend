@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     try {
       await resend.emails.send({
         from: `onboarding@resend.dev`,
-        to: "sagarsharma202122@gmail.com",
+        to: "sharmasagar01@outlook.com",
         subject: `Portfolio Contact Form: ${subject}`,
         text: `From: ${name} <${email}>\n\nMessage:\n${message}`,
       });
