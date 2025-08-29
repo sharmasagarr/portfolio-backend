@@ -11,6 +11,6 @@
   "author": "Sagar Sharma",
   "license": "ISC",
   "dependencies": {
-    "nodemailer": "^7.0.5"
+    "resend": "^6.0.1"
   }
 }
